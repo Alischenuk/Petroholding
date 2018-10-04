@@ -1,0 +1,100 @@
+body {	
+	width: 980px;
+	margin: 0 auto;
+	background: #7CB7FF;
+}
+@font-face {
+	font-family: OpenSans-Light;
+	src: url(../fonts/OpenSans-Light.ttf);
+}
+@font-face {
+	font-family: OpenSans-Bold;
+	src: url(../fonts/OpenSans-Bold.ttf);
+}
+header {	
+	background: url(../img/logo.jpg);
+	height: 61px;
+}
+nav {
+	font-family: OpenSans-Light, sans-serif;
+	letter-spacing: -0.2px; /*интервал между символами, минусовое значение - ужимает*/	
+	font-size: 11px;
+	margin-left: 382px;
+	padding: 24px;
+	position: absolute;
+}
+a {
+	padding-right: 28px;
+	text-decoration: none;
+	white-space: pre-wrap;	/*пробел между словами как в тексте*/
+	color: #000;
+}
+section {
+	width: 980px;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: OpenSans-Light, sans-serif;
+}
+.bluecard {
+	width: 490px;	
+}
+.lilaccard {
+	background: url(../img/base2.jpg);
+	width: 490px;
+}
+.left {
+	position: relative;
+	padding: 46px 54px;	
+	width: 140px;
+	color: white;
+}
+.card {
+	background: #D82AAF;
+	padding: 6px 10px;
+	font-size: 13px;
+	border-radius: 3px;
+	width: 115px;
+	font-family: OpenSans-Bold, sans-serif;
+	white-space: pre-wrap;	
+	letter-spacing: -0.5px;
+}
+.base {
+	font-size: 40px;
+	font-family: OpenSans-Bold, sans-serif;
+	padding-top: 15px;
+	letter-spacing: -5px;
+}
+.text {
+	font-size: 10px;
+}
+.buy {
+	position: relative;
+	left: 334px;
+	top: -178px;
+	width: 45px;
+	background: #1EA0D1;
+	padding: 12px 24px;
+	font-size: 13px;
+	border-radius: 7px;
+	font-family: OpenSans-Bold, sans-serif;
+}
+.buy a  {
+	color: white;
+}
+.price {
+    position: relative;
+	left: 357px;
+	top: 70px;
+	width: 70px;
+	border-radius: 5px;
+	background: #F6C506;
+	padding: 5px 8px;
+	font-size: 18px;
+	font-family: OpenSans-Bold, sans-serif;
+}
+.seacard {
+	width: 490px;
+}
+.lightcard {
+	width: 490px;
+}
