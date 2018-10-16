@@ -1,0 +1,219 @@
+body {	
+	width: 980px;
+	margin: 0 auto;
+	background: #7CB7FF;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+header {	
+	background: url(../img/logo.jpg);
+	height: 61px;
+}
+nav {
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 11px;
+	margin-left: 382px;
+	padding: 24px;
+	position: absolute;
+}
+a {
+	padding-right: 28px;
+	text-decoration: none;
+	color: #000;	
+}
+section {
+	width: 980px;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: 'Open Sans', sans-serif;
+}
+.bluecard {
+	background: url(../img/child.jpg);			
+}
+.lilaccard {
+	background: url(../img/base.jpg);	
+}
+.seacard {	
+	background: url(../img/fulldive.jpg);		
+}
+.lightcard {
+	background: url(../img/akva.jpg);
+}
+.bluecard, .lilaccard, .seacard, .lightcard {
+	width: 490px;
+	display: flex;
+	box-sizing: border-box;
+}
+.bluecard, .lilaccard {
+	height: 394px;		
+	padding: 45px 0 0 47px;
+}
+.seacard, .lightcard {
+	height: 196px;
+	padding: 25px 0 0 47px;
+}	
+.leftcolumn {		
+	width: 285px;
+	color: white;
+	position: relative;
+}
+.rightcolumn {
+	width: 150px;
+	color: white;	
+	position: relative;
+}
+.cardname {	
+	font-size: 14px;
+	border-radius: 5px;			
+	padding: 4px 10px;
+	transform: scaleX(0.88);  /*ужатие текста*/
+	font-weight: bold;
+	white-space: pre-wrap; /*пробел между словами как в тексте*/
+}
+.bluecard .cardname {
+	background: #048BFE;
+	width: 115px;
+}
+.lilaccard .cardname {
+	background: #D82AAF;
+	width: 135px;
+}
+.seacard .cardname {
+	background: #028482;
+	width: 120px;
+	font-size: 13px;
+}
+.lightcard .cardname {
+	background: white;
+	color: #45494C;
+	width: 115px;
+	font-size: 13px;
+	transform: none;
+}
+.title {
+	font-size: 41px;		
+	transform: scaleX(0.955);  /*ужатие текста*/
+	position: absolute;
+	top: 39px;
+	line-height: 1.25;	
+}
+.title span {
+	display: inline-block;
+	transform: scaleX(0.9);	
+}
+.seacard .title, .lightcard .title  {
+	font-size: 31px;
+	top: 34px;
+	transform: scaleX(0.92);
+}
+.lightcard .title {
+	color: #45494C;
+	transform: scaleX(0.9);
+}
+.description {
+	position: absolute;
+	top: 155px;
+	left: -8px;
+	font-size: 14px;	
+	transform: scaleX(0.86);
+	line-height: 1.35;	
+}
+.seacard .description {
+	top: 81px;
+}
+.lightcard .description {
+	top: 81px;
+	color: #45494C;
+}
+.buy {
+	position: relative;
+	width: 92px;    	
+	left: 2px;
+	background: linear-gradient(#26C3E4, #188FC7);
+	padding: 11px 22px;
+	font-size: 14px;
+	border-radius: 5px;	
+	box-sizing: border-box;	
+}
+.buy:after {
+	content: "";
+	position: absolute;
+	display: block;
+	background: linear-gradient(135deg, #26C3E4, #188FC7);
+	width: 29px;
+	height: 29px;
+	transform: rotate(45deg);
+	top: 4px;
+	left: 74px;
+	border-radius: 6px;
+}
+.buy a  {
+	color: white;
+}
+.price {
+    position: absolute;
+	right: 41px;
+	bottom: 29px;
+	width: 67px;
+	border-radius: 5px;
+	background: #F6C506;
+	padding: 2px 6px;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;	
+	transform: scaleX(1.1);
+}
+.seacard .price, 
+.lightcard .price {
+	bottom: 16px;
+} 
+.threekilos {
+	width: 980px;
+	height: 356px;
+	background: url(../img/threekilos.jpg);
+	text-align: center;
+	color: white;
+	padding-top: 53px;	
+	box-sizing: border-box;
+}
+h1 {
+	transform: scaleX(0.85);
+	font-weight: 200;
+}
+h2 {
+	transform: scaleX(0.79);
+	font-weight: 200;
+}
+p {
+	transform: scaleX(0.75);
+}
+.button {
+	width: 150px;
+	background: linear-gradient(#26C3E4, #188FC7);
+	padding: 10px;
+	font-size: 13px;
+	border-radius: 5px;	
+	color: white;
+	box-sizing: border-box;
+	border: none;
+	margin-top: 5px;
+}
+.hat {
+	background: url(../img/hat.jpg);
+	width: 980px;
+	height: 338px;
+}
+.hat h1 {
+	padding-top: 61px;
+	text-align: left;
+	color: #45494C;
+}
+.hat p {
+	padding-left: 0;
+	text-align: left;
+	color: #45494C;
+}
+.hat .button {
+	margin: 10px 0 0 375px;
+	position: relative;
+}
